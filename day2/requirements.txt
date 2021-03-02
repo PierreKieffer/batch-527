@@ -1,0 +1,14 @@
+joblib
+pytz
+gcsfs==0.6.0
+s3fs
+pandas==0.24.2
+scikit-learn==0.20.4
+pygeohash
+category_encoders
+termcolor
+mlflow
+xgboost==0.90
+memoized_property
+psutil
+
