@@ -37,8 +37,6 @@ if st.button('run prediction'):
 
     response = requests.get("https://taxifare-5ciz54dinq-ew.a.run.app/predict",  params = params)
 
-    print(response.status_code)
-    print(response.json())
     prediction = response.json().get("prediction", None)
     result = "taxi fare prediction : {} $".format(prediction)
     result
